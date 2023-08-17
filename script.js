@@ -16,5 +16,9 @@ const textToSpeech = () => {
           button.innerText = "Pause";
           synth.resume();
           isSpeaking = false;
-        }
+        }else {
+            button.innerText = "Resume";
+            synth.pause();
+            isSpeaking = true;
+          }
 };
