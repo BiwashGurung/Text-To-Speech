@@ -10,5 +10,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(-200deg, #C0C0C0,#111111);
+  background: linear-gradient(-180deg, #C0C0C0,#111111);
 }
+.container {
+    position: relative;
+    max-width: 350px;
+    width: 100%;
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
