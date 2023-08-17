@@ -32,3 +32,5 @@ const textToSpeech = () => {
     }
   });
 };
+
+button.addEventListener("click", textToSpeech);
