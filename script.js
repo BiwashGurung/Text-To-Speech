@@ -10,4 +10,11 @@ const textToSpeech = () => {
         const utternace = new SpeechSynthesisUtterance(text);
         synth.speak(utternace);
       }
+
+      if (text.length > 50) {
+        if (synth.speaking && isSpeaking) {
+          button.innerText = "Pause";
+          synth.resume();
+          isSpeaking = false;
+        }
 };
