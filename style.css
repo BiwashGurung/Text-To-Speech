@@ -19,5 +19,11 @@ body {
     background: #fff;
     border-radius: 12px;
     padding: 20px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
   }
+  header {
+  font-size: 19px;
+  color: #111;
+  font-weight: 550;
+  text-align: center;
+}
