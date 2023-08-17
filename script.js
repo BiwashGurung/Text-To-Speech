@@ -25,4 +25,10 @@ const textToSpeech = () => {
     isSpeaking = false;
     button.innerText = "Speaking";
   }
+  setInterval(() => {
+    if (!synth.speaking && !isSpeaking) {
+      isSpeaking = true;
+      button.innerText = "Convert to Speech";
+    }
+  });
 };
